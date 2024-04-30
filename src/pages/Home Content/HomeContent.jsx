@@ -110,7 +110,7 @@ const FilterBar = () => {
 
                 <div className="filter-menu-item">
                 <Dropdown>
-                        <Dropdown.Toggle as={CustomToggle} variant="secondary" className="bg-success"><i class="fa-solid fa-filter"></i> &nbsp;More Filter</Dropdown.Toggle>
+                        <Dropdown.Toggle as={CustomToggle} variant="secondary" className="bg-success"><i class="fa-solid fa-filter"></i> &nbsp;Filter</Dropdown.Toggle>
                     </Dropdown>
                 </div>
                 
