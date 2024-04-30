@@ -6,7 +6,7 @@
 
 /* Remove unnecessary CSS */
 .LocSubTitle {
-    padding-left: 110px;
+    padding-left: 100px;
     padding-top: 10px;
 }
 
@@ -93,7 +93,7 @@
 
 @media (max-width: 600px) {
     .LocSubTitle {
-        padding-left: 30px;
+        padding-left: 10px;
         padding-top: 10px;
     }
     .loctitle .heavensloc {
