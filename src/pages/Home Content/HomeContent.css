@@ -1,0 +1,142 @@
+/* Updated CSS */
+.custom-button.selected {
+    background-color: green;
+    color: white;
+}
+
+/* Remove unnecessary CSS */
+.LocSubTitle {
+    padding-left: 110px;
+    padding-top: 10px;
+}
+
+.heavensloc {
+    font-weight: 500;
+}
+
+.FilterMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.FilterMenu {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: white;
+}
+
+.dropdownfilter .dropdown-menu {
+    width: 600px; 
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+  
+.SearchBarloc {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.custom-button-group {
+    display: flex;
+}
+
+.custom-button {
+    border: 1px solid grey;
+    border-radius: 26px;
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    margin-right: 12px;
+    transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+    width: 150px;
+    height: 50px;
+}
+
+.custom-button:hover {
+    border-color: green;
+}
+
+.custom-toggle {
+    border: 1px solid grey;
+    border-radius: 26px;
+    background-color: white;
+    color: grey;
+    padding: 8px 16px;
+    margin-right: 12px;
+    transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+    width: 150px;
+    height: 50px;
+}
+
+.custom-toggle:hover {
+    border-color: green;
+}
+
+.mx-2 {
+    margin: 0 8px;
+}
+
+.sortpop .custom-toggle {
+    border: 1px solid grey;
+    border-radius: 26px;
+    background-color: white;
+    color: grey;
+    padding: 8px 16px;
+    margin-right: 12px;
+    transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+    width: 210px;
+    height: 50px;
+}
+
+@media (max-width: 600px) {
+    .LocSubTitle {
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    .loctitle .heavensloc {
+        font-size: 14px;
+    }
+    .loctitle .heavensloc2 {
+        font-size: 14px;
+    }
+
+    /* Hide unnecessary elements */
+    .FilterMenu .filter-menu-item:nth-child(2),
+    .FilterMenu .filter-menu-item:nth-child(3),
+    .FilterMenu .filter-menu-item:nth-child(5) {
+        display: none;
+    }
+    .custom-button {
+        display: none;
+    }
+    .sortpop .custom-toggle {
+        border: 1px solid grey;
+        border-radius: 26px;
+        background-color: white;
+        color: grey;
+        padding: 8px 16px;
+        margin-right: 12px;
+        transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+        width: 155px;
+        height: 35px;
+    }
+    .custom-toggle {
+        border: 1px solid grey;
+        border-radius: 26px;
+        background-color: white;
+        color: grey;
+        padding: 8px 16px;
+        margin-right: 12px;
+        transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
+    .custom-toggle:hover {
+        border-color: green;
+    }
+}

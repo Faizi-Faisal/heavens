@@ -1,0 +1,25 @@
+
+.HomeCarousel {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.Citem img {
+    border-radius: 20px;
+}
+
+
+/* Media query for screens below 500px */
+@media (max-width: 600px) {
+    .HomeCarousel {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        border-radius: 0;
+    }
+    .Citem img {
+        border-radius: 14px;
+    }
+}

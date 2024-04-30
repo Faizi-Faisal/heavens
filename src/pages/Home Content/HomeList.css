@@ -1,0 +1,16 @@
+.Homelisttitle{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+
+
+@media (max-width: 600px) {
+    .Homelisttitle{
+        padding-left: 20px;
+        padding-top: 2px;
+    }
+    .Homelisttitle h5 {
+        font-size: 15px;
+    }
+}
