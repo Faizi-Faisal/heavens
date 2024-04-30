@@ -145,4 +145,17 @@
         padding-right: 25px;
         padding-top: 0;
     }
+    .sortpop .custom-toggle {
+        border: 1px solid grey;
+        border-radius: 26px;
+        background-color: white;
+        color: grey;
+        padding: 8px 16px;
+        margin-right: 12px;
+        transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+        width: 145px;
+        height: 35px;
+        font-size: 10px;
+    }
+    
 }
