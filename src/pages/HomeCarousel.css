@@ -21,5 +21,6 @@
     }
     .Citem img {
         border-radius: 14px;
+        height: 150px;
     }
 }
