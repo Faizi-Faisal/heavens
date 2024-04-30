@@ -117,7 +117,7 @@ const FilterBar = () => {
                 <div className='sortpop'>
                 <div className="filter-menu-item">
                 <Dropdown>
-                <Dropdown.Toggle as={CustomToggle} variant="secondary" className="bg-success">Sort By : popularity &nbsp;&nbsp;<i class="fa-solid fa-caret-down"></i></Dropdown.Toggle>
+                <Dropdown.Toggle as={CustomToggle} variant="secondary" className="bg-success">Sort By &nbsp;&nbsp;<i class="fa-solid fa-caret-down"></i></Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item onClick={handleSortByChange}>Option 1</Dropdown.Item>
                   <Dropdown.Item onClick={handleSortByChange}>Option 2</Dropdown.Item>
