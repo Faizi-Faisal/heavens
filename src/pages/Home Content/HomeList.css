@@ -104,6 +104,7 @@
         padding-left: 0px;
         justify-content: center;
         display: flex;
+        overflow: hidden;
     }
     .card {
         width: 330px; /* Adjust the width as needed */
