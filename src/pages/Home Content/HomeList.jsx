@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeList.css';
-import { Button } from 'react-bootstrap';
+import { Badge, Button } from 'react-bootstrap';
 
 const HomeList = () => {
   return (
@@ -24,8 +24,9 @@ const HomeList = () => {
               <div className='cardtypesdetail'>
                 <p className='bedtype'><i class="fa-solid fa-bed"></i> Bed Type :  Double</p>
               </div>
-              <div>
-                <div></div>
+              <div className='aminitiesbadge'>
+              <Badge pill bg="success" className='badgewifi'> <i class="fa-solid fa-wifi"></i> Wifi &nbsp;</Badge>{' '}
+                <Badge pill bg="warning"><i class="fa-solid fa-bath"></i> Attached Washroom</Badge>{' '}
               </div>
               <div className='cardButtonhome'>
               <h4 className='rentamountcard'>₹5,000<span className='rentamountmonth'>/month</span></h4>
