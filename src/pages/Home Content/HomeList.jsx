@@ -20,7 +20,7 @@ const HomeList = () => {
               <h5 className="card-title">Heavens PG for Boys</h5>
               <h6 className='rentamt'><span className='monthamt'><i class="fa-solid fa-route"></i> View Direction</span></h6>
               <p className="card-subtitle">Bommanahalli</p>
-              <span className="tagbadge badge">Boys</span>
+              <span className="tagbadge badge">Boys <i class="fa-solid fa-person"></i></span>
               <div className='cardtypesdetail'>
                 <p className='bedtype'><i class="fa-solid fa-bed"></i> Bed Type :  Double</p>
               </div>
