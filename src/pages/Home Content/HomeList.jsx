@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomeList.css';
+import { Button } from 'react-bootstrap';
 
 const HomeList = () => {
   return (
@@ -14,7 +15,12 @@ const HomeList = () => {
           <div className="card-body">
             <h5 className="card-title">Heavens PG for Boys</h5>
             <p className="card-subtitle">Bommanahalli</p>
-            <span className="badge">Boys</span>
+            <span className="tagbadge badge">Boys</span>
+            <br></br>
+            <div className='cardButtonhome'>
+            <Button variant="success">Success</Button>{' '}
+            <Button variant="outline-success">Success</Button>{' '}
+            </div>
           </div>
         </div>
       </div>
