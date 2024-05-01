@@ -157,10 +157,9 @@
         height: 35px;
     }
     .FilterMenu {
-        position: sticky;
-        top: 63px;
-        z-index: 11;
-        background-color: white;
+        position: inherit;
+        top: 0;
+        z-index: 0;
     }
     
 }
