@@ -118,6 +118,23 @@
   .aminitiesbadge {
     font-size: 14px;
   }
+
+  .boxerbox {
+    border: 1px solid rgba(53, 53, 53, 0.367);
+    border-radius: 12px;
+  }
+  .boxerbox .detailbox {
+    padding: 12px;
+  }
+  .boxerbox {
+    background: linear-gradient(135deg, #dcf1e8 0%, #d2eddb 100%);
+    padding: 20px;
+  }
+  
+  
+ 
+  
+  
   
 
 
