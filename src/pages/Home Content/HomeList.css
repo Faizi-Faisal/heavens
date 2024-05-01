@@ -55,8 +55,8 @@
 }
 
 .cardButtonhome .btn {
-    margin: 2px; /* Adjust margin between buttons */
-    height: 50px; /* Adjust button height */
+    margin: 4px; /* Adjust margin between buttons */
+    height: 40px; /* Adjust button height */
     width: 160px; /* Adjust button width */
     border-radius: 8px;
   }
@@ -89,6 +89,7 @@
   .bedtype {
     font-size: 12px;
     color: #505050; /* Adjust color as needed */
+    padding-top: 14px;
   }
   
   
