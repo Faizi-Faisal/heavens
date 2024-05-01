@@ -20,9 +20,11 @@ const HomeList = () => {
               <h5 className="card-title">Heavens PG for Boys</h5>
               <p className="card-subtitle">Bommanahalli</p>
               <span className="tagbadge badge">Boys</span>
-              <br></br>
               <div className='cardtypesdetail'>
-                <p className='bedtype'><i class="fa-solid fa-bed"></i> Bed Type : </p>
+                <p className='bedtype'><i class="fa-solid fa-bed"></i> Bed Type :  Double</p>
+              </div>
+              <div>
+                <div></div>
               </div>
               <div className='cardButtonhome'>
                 <Button variant="success" className="custom-button">Book Now</Button>{' '}
@@ -43,4 +45,3 @@ const HomeList = () => {
 }
 
 export default HomeList;
-
