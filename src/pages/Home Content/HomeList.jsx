@@ -28,7 +28,7 @@ const HomeList = () => {
                 <div></div>
               </div>
               <div className='cardButtonhome'>
-                <Button variant="success" className="custom-button">Book Now</Button>{' '}
+              <h4 className='rentamountcard'>₹5,000<span className='rentamountmonth'>/month</span></h4>
                 <Button variant="outline-success" className="custom-button-outline">Get CallBack</Button>{' '}
               </div>
             </div>
