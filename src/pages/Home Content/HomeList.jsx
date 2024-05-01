@@ -18,7 +18,7 @@ const HomeList = () => {
             />
             <div className="card-body">
               <h5 className="card-title">Heavens PG for Boys</h5>
-              <h6 className='rentamt'>₹5,000<span className='monthamt'>/month</span></h6>
+              <h6 className='rentamt'><span className='monthamt'><i class="fa-solid fa-route"></i> View Direction</span></h6>
               <p className="card-subtitle">Bommanahalli</p>
               <span className="tagbadge badge">Boys</span>
               <div className='cardtypesdetail'>
