@@ -51,4 +51,8 @@
     .Homelisttitle h5 {
         font-size: 15px;
     }
+    .homelisting {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
 }
