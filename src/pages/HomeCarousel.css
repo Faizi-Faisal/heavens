@@ -12,7 +12,7 @@
 
 
 /* Media query for screens below 500px */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .HomeCarousel {
         padding-left: 10px;
         padding-right: 10px;
