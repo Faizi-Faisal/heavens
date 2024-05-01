@@ -3,6 +3,44 @@
     padding-top: 10px;
 }
 
+/* HomeList.css */
+.homelisting {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.card {
+    width: 300px; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Ensure the image takes up the full width of the card */
+    height: 200px; /* Adjust the height of the image */
+    object-fit: cover; /* Ensure the image covers the entire space allocated */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 20px; /* Adjust the font size of the title */
+    font-weight: bold; /* Optionally adjust font weight */
+  }
+  
+  .card-subtitle {
+    font-size: 14px; /* Adjust the font size of the subtitle */
+    color: #888; /* Optionally adjust the color */
+  }
+  
+  .badge {
+    background-color: #007bff; /* Adjust the background color of the badge */
+    color: #fff; /* Adjust the text color of the badge */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optionally add border radius */
+  }
+  
 
 
 @media (max-width: 500px) {
