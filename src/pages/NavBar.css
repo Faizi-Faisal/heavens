@@ -3,9 +3,13 @@
     padding-right: 80px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .MHNavBar {
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .MHNavBar {
+        position: sticky;
+        top: 0;
     }
 }
