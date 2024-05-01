@@ -58,6 +58,32 @@
     width: 160px; /* Adjust button width */
     border-radius: 8px;
   }
+  /* HomeList.css */
+
+  .cardButtonhome .custom-button {
+    background-color: #a73128; /* Green */
+    border-color: #28a745; /* Green */
+    color: #fff; /* White */
+  }
+  
+  .cardButtonhome .custom-button:hover {
+    background-color: #218838; /* Darker shade of green */
+    border-color: #1e7e34; /* Darker shade of green */
+    color: #fff; /* White */
+  }
+  
+  .cardButtonhome .custom-button-outline {
+    background-color: transparent;
+    border-color: #28a745; /* Green */
+    color: #28a745; /* Green */
+  }
+  
+  .cardButtonhome .custom-button-outline:hover {
+    background-color: #28a745; /* Green */
+    border-color: #28a745; /* Green */
+    color: #fff; /* White */
+  }
+  
   
   
 
@@ -90,4 +116,28 @@
         font-size: 12px; /* Adjust the font size of the subtitle */
         color: #888; /* Optionally adjust the color */
       }
+
+    .cardButtonhome .custom-button {
+    background-color: #a73128; /* Green */
+    border-color: #28a745; /* Green */
+    color: #fff; /* White */
+  }
+  
+  .cardButtonhome .custom-button:hover {
+    background-color: #218838; /* Darker shade of green */
+    border-color: #1e7e34; /* Darker shade of green */
+    color: #fff; /* White */
+  }
+  
+  .cardButtonhome .custom-button-outline {
+    background-color: transparent;
+    border-color: #28a745; /* Green */
+    color: #28a745; /* Green */
+  }
+  
+  .cardButtonhome .custom-button-outline:hover {
+    background-color: #28a745; /* Green */
+    border-color: #28a745; /* Green */
+    color: #fff; /* White */
+  }
 }
