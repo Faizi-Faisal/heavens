@@ -1,30 +1,49 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 import './NavBar.css';
 
 const NavBar = () => {
+  // Define a state to track whether the hamburger menu is visible
+  const [showMenu, setShowMenu] = React.useState(true);
+
+  // Function to handle toggling the visibility of the hamburger menu
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
 
   return (
     <div className='MHNavBar pt-2'>
-        <Navbar collapseOnSelect expand="lg" className="bg-body-white">
-    <Container>
-      <Navbar.Brand href="#home">Heavens Living</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="me-auto">
-          
-        </Nav>
-
-        <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Dank memes
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
+      <Navbar collapseOnSelect expand="lg" className="bg-body-white">
+        <Container>
+          <Navbar.Brand href="#home">Heavens Living</Navbar.Brand>
+          {/* Conditionally render the hamburger menu and its toggle button */}
+          {window.innerWidth > 500 && (
+            <>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav" className={showMenu ? 'show' : ''}>
+                <Nav className="me-auto">
+                  {/* Nav items */}
+                </Nav>
+                <Nav>
+                  <Nav.Link href="#deets">More deets</Nav.Link>
+                  <Nav.Link eventKey={2} href="#memes">
+                    Dank memes
+                  </Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </>
+          )}
+          {/* Render a button for login only on small screens */}
+          {window.innerWidth <= 500 && (
+            <div className="d-flex align-items-center">
+              <Button variant="outline-success">Login</Button>
+            </div>
+          )}
+        </Container>
+      </Navbar>
     </div>
   );
 };
