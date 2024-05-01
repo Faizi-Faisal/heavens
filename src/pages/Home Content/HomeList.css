@@ -98,7 +98,7 @@
   }
   .monthamt {
     color: #5e5e5e;
-    font-size: 10px;
+    font-size: 12px;
   }
   
 
@@ -158,5 +158,13 @@
     background-color: #28a745; /* Green */
     border-color: #28a745; /* Green */
     color: #fff; /* White */
+  }
+  .rentamt {
+    float: right;
+    font-weight: 500;
+  }
+  .monthamt {
+    color: #5e5e5e;
+    font-size: 10px;
   }
 }
