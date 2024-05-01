@@ -149,12 +149,14 @@
         font-size: 12px; /* Adjust the font size of the subtitle */
         color: #888; /* Optionally adjust the color */
       }
-  
+    .cardButtonhome .custom-button-outline {
+        margin-left: 25px;
+    }
+      
   .cardButtonhome .custom-button-outline {
     background-color: transparent;
     border-color: #28a745; /* Green */
     color: #28a745; /* Green */
-    margin-left: 10px;
   }
   
   .cardButtonhome .custom-button-outline:hover {
