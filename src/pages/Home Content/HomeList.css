@@ -104,12 +104,12 @@
         padding-left: 0px;
         justify-content: center;
         display: flex;
+        padding: 10px;
        
     }
     .card {
         width: 340px; /* Adjust the width as needed */
         height: 550px; /* Adjust the height as needed */
-        padding: 3px;
       }
 
     .card-title {
