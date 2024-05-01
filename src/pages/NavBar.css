@@ -6,7 +6,8 @@
 @media (max-width: 500px) {
     .MHNavBar {
         padding-left: 0px;
-        padding-right: 0px;
+        padding-right: 5px;
+        overflow: hidden;
     }
     .MHNavBar {
         position: sticky;
