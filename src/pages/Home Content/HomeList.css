@@ -52,10 +52,9 @@
         font-size: 15px;
     }
     .homelisting {
-        display: flex; /* Use flexbox */
-        justify-content: center; /* Center content horizontally */
-        align-items: center; /* Center content vertically */
-        flex-direction: column; /* Stack items vertically */
         padding-top: 10px;
+        padding-left: 0px;
+        justify-content: center;
+        display: flex;
     }
 }
