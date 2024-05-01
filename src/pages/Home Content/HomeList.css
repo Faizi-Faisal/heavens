@@ -1,17 +1,29 @@
-.Homelisttitle{
+.Homelisttitle {
     padding-left: 100px;
     padding-top: 10px;
-}
-
-/* HomeList.css */
-.homelisting {
+  }
+  
+  /* HomeList.css */
+  .homelisting {
+    position: relative; /* Ensure the positioning context */
     padding-left: 100px;
     padding-top: 10px;
-}
-
-.card {
+  }
+  
+  .card {
     width: 300px; /* Adjust the width as needed */
     height: 350px; /* Adjust the height as needed */
+    position: relative; /* Ensure the positioning context */
+  }
+  
+  .badge {
+    position: absolute; /* Position the badge absolutely */
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
+    background-color: #007bff; /* Adjust the background color of the badge */
+    color: #fff; /* Adjust the text color of the badge */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optionally add border radius */
   }
   
   .card-img-top {
@@ -34,12 +46,6 @@
     color: #888; /* Optionally adjust the color */
   }
   
-  .badge {
-    background-color: #007bff; /* Adjust the background color of the badge */
-    color: #fff; /* Adjust the text color of the badge */
-    padding: 5px 10px; /* Adjust padding as needed */
-    border-radius: 5px; /* Optionally add border radius */
-  }
   
 
 
