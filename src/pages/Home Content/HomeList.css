@@ -5,6 +5,8 @@
   
   /* HomeList.css */
   .homelisting {
+    margin-left: 7%;
+    margin-right: 7%;
     position: relative; /* Ensure the positioning context */
     padding-left: 100px;
     padding-top: 10px;
@@ -97,6 +99,8 @@
         font-size: 15px;
     }
     .homelisting {
+        margin-left: 0;
+        margin-right: 0;
         padding-top: 10px;
         padding-left: 0px;
         justify-content: center;
