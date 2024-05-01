@@ -99,6 +99,7 @@
   .monthamt {
     color: #5e5e5e;
     font-size: 12px;
+    cursor: pointer;
   }
 
   .cardButtonhome .rentamountcard {
@@ -130,10 +131,6 @@
     background: linear-gradient(135deg, #dcf1e8 0%, #d2eddb 100%);
     padding: 20px;
   }
-  
-  
- 
-  
   
   
 
@@ -192,6 +189,7 @@
   .monthamt {
     color: #5e5e5e;
     font-size: 10px;
+    cursor: pointer;
   }
 
   .cardButtonhome .rentamountcard {
