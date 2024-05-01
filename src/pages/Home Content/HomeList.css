@@ -16,7 +16,7 @@
     position: relative; /* Ensure the positioning context */
   }
   
-  .badge {
+  .tagbadge {
     position: absolute; /* Position the badge absolutely */
     top: 10px; /* Adjust the distance from the top */
     right: 10px; /* Adjust the distance from the right */
@@ -37,13 +37,26 @@
   }
   
   .card-title {
-    font-size: 20px; /* Adjust the font size of the title */
+    font-size: 16px; /* Adjust the font size of the title */
     font-weight: bold; /* Optionally adjust font weight */
   }
   
   .card-subtitle {
-    font-size: 14px; /* Adjust the font size of the subtitle */
+    font-size: 12px; /* Adjust the font size of the subtitle */
     color: #888; /* Optionally adjust the color */
+  }
+
+  .cardButtonhome {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Add some margin to separate from other content */
+}
+
+.cardButtonhome .btn {
+    margin: 2px; /* Adjust margin between buttons */
+    height: 50px; /* Adjust button height */
+    width: 160px; /* Adjust button width */
+    border-radius: 8px;
   }
   
   
