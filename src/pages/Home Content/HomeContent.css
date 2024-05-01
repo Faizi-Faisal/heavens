@@ -107,7 +107,7 @@
     }
 
     /* Hide unnecessary elements */
-    .FilterMenu .filter-menu-item:nth-child(2),
+    .FilterMenu .filter-menu-item:nth-child(6),
     .FilterMenu .filter-menu-item:nth-child(3),
     .FilterMenu .filter-menu-item:nth-child(5) {
         display: none;
