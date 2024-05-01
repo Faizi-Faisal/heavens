@@ -67,4 +67,9 @@
         width: 350px; /* Adjust the width as needed */
         height: 550px; /* Adjust the height as needed */
       }
+
+    .card-title {
+    font-size: 18px; /* Adjust the font size of the title */
+    font-weight: bold; /* Optionally adjust font weight */
+    }
 }
