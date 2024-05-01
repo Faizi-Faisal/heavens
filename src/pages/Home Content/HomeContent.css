@@ -147,6 +147,7 @@
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 0;
+        overflow: hidden;
     }
     .sortpop .custom-toggle {
         border: 1px solid grey;
