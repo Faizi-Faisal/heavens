@@ -8,7 +8,7 @@ const HomeList = () => {
       <div className='Homelisttitle'>
         <h5>Our PG in Bengaluru is ready to occupy!</h5>
       </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-6 g-2">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-6 g-0">
         <div className="homelisting col">
           <div className="card">
             <img
