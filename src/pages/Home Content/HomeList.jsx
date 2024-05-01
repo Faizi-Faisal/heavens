@@ -67,7 +67,7 @@ const HomeList = () => {
               </div>
               <div className='cardButtonhome'>
                 <h4 className='rentamountcard'>₹5,000<span className='rentamountmonth'>/month</span></h4>
-                <Button variant="outline-success" className="custom-button-outline" onClick={handleShowModal}>Get CallBack</Button>{' '}
+                <Button variant="outline-success" className="custom-button-outline" onClick={handleShowModal}><i class="fa-solid fa-phone"></i> &nbsp;Get CallBack</Button>{' '}
               </div>
             </div>
           </div>
