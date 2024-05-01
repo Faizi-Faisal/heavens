@@ -46,7 +46,7 @@
 .custom-button {
     border: 1px solid grey;
     border-radius: 26px;
-    background-color: green;
+    background-color: rgb(57, 140, 98);
     color: white;
     padding: 8px 16px;
     margin-right: 12px;
@@ -56,7 +56,7 @@
 }
 
 .custom-button:hover {
-    border-color: green;
+    border-color:  rgb(57, 140, 98);
 }
 
 .custom-toggle {
@@ -72,7 +72,7 @@
 }
 
 .custom-toggle:hover {
-    border-color: green;
+    border-color:  rgb(57, 140, 98);
 }
 
 .mx-2 {
@@ -91,7 +91,7 @@
     height: 50px;
 }
 .sortpop .custom-toggle:hover {
-    border-color: green;
+    border-color:  rgb(57, 140, 98);
 }
 
 @media (max-width: 500px) {
