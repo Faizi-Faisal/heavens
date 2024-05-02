@@ -7,20 +7,21 @@
   .containermobilelogin .image-container {
     margin-bottom: 20px;
   }
-
-   .image-container img {
+  
+  .image-container img {
     width: 330px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px;
     margin-top: 20px;
   }
   
-  .containermobilelogin .content-container {
+  .content-container {
     text-align: center;
   }
   
-  .containermobilelogin .form-group {
+  .form-group {
     margin-bottom: 15px;
+    text-align: left; /* Align text to the left */
   }
   
   .content-container input[type="email"],
