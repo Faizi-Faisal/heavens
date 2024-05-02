@@ -1,9 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './MUL.css';
 
 const MUserLogin = () => {
+  const navigate = useNavigate();
+
+  const handleClose = () => {
+    navigate('/');
+  };
+
   return (
     <div className="containermobilelogin container">
+      <div className="close-icon" onClick={handleClose}><i class="fa-regular fa-circle-xmark"></i></div>
       <div className="image-container">
         <img src="https://img.freepik.com/free-vector/secure-login-concept-illustration_114360-4320.jpg" alt="Secure Login" />
       </div>
@@ -24,4 +32,3 @@ const MUserLogin = () => {
 };
 
 export default MUserLogin;
-
