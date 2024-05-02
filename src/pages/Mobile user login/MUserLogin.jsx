@@ -16,7 +16,7 @@ const MUserLogin = () => {
         <img src="https://img.freepik.com/free-vector/secure-login-concept-illustration_114360-4320.jpg" alt="Secure Login" />
       </div>
       <div className="content-container">
-        <h2>Let's get started</h2>
+        <h2>Login</h2>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input type="email" id="email" name="email" placeholder="Enter your email" />
