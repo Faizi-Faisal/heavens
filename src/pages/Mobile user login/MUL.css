@@ -22,7 +22,10 @@
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 18px;
+
   }
   
   .form-group {
@@ -67,4 +70,4 @@
     cursor: pointer;
     color: #343434;
   }
-
+  
