@@ -46,7 +46,7 @@
   }
   
   .content-container button.login-button {
-    background-color: rgb(57, 140, 98);
+    background-color: rgb(67, 158, 113);
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -67,4 +67,4 @@
     cursor: pointer;
     color: #343434;
   }
-  
+
