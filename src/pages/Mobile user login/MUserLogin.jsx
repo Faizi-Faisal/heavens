@@ -3,7 +3,7 @@ import './MUL.css';
 
 const MUserLogin = () => {
   return (
-    <div className="container">
+    <div className="containermobilelogin container">
       <div className="image-container">
         <img src="https://img.freepik.com/free-vector/secure-login-concept-illustration_114360-4320.jpg" alt="Secure Login" />
       </div>
@@ -24,3 +24,4 @@ const MUserLogin = () => {
 };
 
 export default MUserLogin;
+
