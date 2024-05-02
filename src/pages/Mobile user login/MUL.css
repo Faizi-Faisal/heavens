@@ -17,17 +17,22 @@
   }
   
   .content-container {
-    text-align: center;
+    text-align: start;
     width: 107%; /* Set the width to 100% */
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 14px;
+    padding: 18px;
   }
   
   .form-group {
     margin-bottom: 10px;
     text-align: left; /* Align text to the left */
+    padding: 4px;
+  }
+  .content-container input[type="email"],
+  input[type="password"] {
+    height: 60px;
   }
   
   .content-container input[type="email"],
