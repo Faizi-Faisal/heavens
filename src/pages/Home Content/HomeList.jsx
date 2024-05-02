@@ -53,23 +53,24 @@ const HomeList = () => {
               alt="PG in Bengaluru"
               className="card-img-top"
             />
-            <div className="card-body">
-              <h5 className="card-title">Heavens PG for Boys</h5>
-              <h6 className='rentamt'><span className='monthamt'><i className="fa-solid fa-route"></i> View Direction</span></h6>
-              <p className="card-subtitle">Bommanahalli</p>
-              <span className="tagbadge badge">Boys <i className="fa-solid fa-person"></i></span>
-              <div className='cardtypesdetail'>
+           <div className="card-body">
+            <h5 className="card-title">Heavens PG for Boys</h5>
+            <h6 className='rentamt'><span className='monthamt'><i className="fa-solid fa-route"></i> View Direction</span></h6>
+            <p className="card-subtitle">Bommanahalli</p>
+            <span className="tagbadge badge">Boys <i className="fa-solid fa-person"></i></span>
+            <div className='cardtypesdetail'>
                 <p className='bedtype'><i className="fa-solid fa-bed"></i> Bed Type :  Double</p>
-              </div>
-              <div className='aminitiesbadge'>
-                <Badge pill bg="success" className='badgewifi'> <i className="fa-solid fa-wifi"></i> Wifi &nbsp;</Badge>{' '}
-                <Badge pill bg="warning"><i className="fa-solid fa-bath"></i> Attached Washroom</Badge>{' '}
-              </div>
-              <div className='cardButtonhome'>
-                <h4 className='rentamountcard'>₹5,000<span className='rentamountmonth'>/month</span></h4>
-                <Button variant="outline-success" className="custom-button-outline" onClick={handleShowModal}><i class="fa-solid fa-phone"></i> &nbsp;Get CallBack</Button>{' '}
-              </div>
             </div>
+            <div className='aminitiesbadge'>
+                <Badge pill bg="success" className='badgewifi'> <i className="fa-solid fa-wifi"></i> Wifi &nbsp;</Badge>{' '}
+                <Badge pill bg="secondary" className='badgewashroom'><i className="fa-solid fa-bath"></i> Attached Washroom</Badge>{' '}
+            </div>
+            <div className='cardButtonhome'>
+                <h4 className='rentamountcard'>₹5,000<span className='rentamountmonth'>/month</span></h4>
+                <Button variant="outline-success" className="custom-button-outline" onClick={handleShowModal}><i className="fa-solid fa-phone"></i> &nbsp;Get CallBack</Button>{' '}
+            </div>
+            </div>
+
           </div>
         </div>
 
